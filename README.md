@@ -4,13 +4,13 @@ Deno REST API example project.
 
 ## Prerequisites
 
-* Install deno
+Install deno.
 
 ```bash
 curl -fsSL https://deno.land/x/install/install.sh | sh
 ```
 
-* Install denon (if you are planning to watch the files).
+Install denon (if you are planning to watch the files).
 
 ```bash
 deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts
