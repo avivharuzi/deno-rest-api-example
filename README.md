@@ -1,2 +1,3 @@
-# deno-rest-api-example
-Deno REST API example project
+# Deno REST API Example
+
+Deno REST API example project.
