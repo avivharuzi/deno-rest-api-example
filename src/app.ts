@@ -7,10 +7,10 @@ const router = new Router();
 
 const app = new Application();
 
+await routes(router);
+
 app.use(oakCors()); // Enable CORS for all routes.
 app.use(router.routes());
 app.use(router.allowedMethods());
-
-await routes(router);
 
 export default app;

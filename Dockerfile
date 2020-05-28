@@ -14,4 +14,4 @@ EXPOSE $SERVER_PORT
 
 ENTRYPOINT ["denon"]
 
-CMD ["run", "--allow-env", "--allow-net", "--allow-read", "src/main.ts"]
+CMD ["run", "-A", "--unstable", "src/main.ts"]

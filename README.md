@@ -4,17 +4,17 @@ Deno REST API example project.
 
 ## Prerequisites
 
-Install deno.
-
-```bash
-curl -fsSL https://deno.land/x/install/install.sh | sh
-```
-
-Install denon (if you are planning to watch the files).
+* Install deno from https://deno.land
+* Install denon (if you are planning to watch the files)
 
 ```bash
 deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts
 ```
+
+* MongoDB (optional if you are going to use Docker)
+* Copy **.env.example** and make **.env** file
+* Update the **.env** file values
+* Docker and Docker Compose (optional)
 
 ## Commands
 
@@ -27,13 +27,13 @@ deno fmt
 Run server.
 
 ```bash
-deno run --allow-env --allow-net --allow-read src/main.ts 
+deno run -A --unstable src/main.ts 
 ```
 
 Run server with denon.
 
 ```bash
-denon run --allow-env --allow-net --allow-read src/main.ts 
+denon run -A --unstable src/main.ts 
 ```
 
 ## Docker Commands

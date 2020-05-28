@@ -3,4 +3,4 @@ version: "3.7"
 services:
   deno-rest-api-example:
     entrypoint: ["deno"]
-    command: ["run", "--allow-env", "--allow-net", "--allow-read", "src/main.ts"]
+    command: ["run", "-A", "--unstable", "src/main.ts"]
