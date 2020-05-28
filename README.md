@@ -27,11 +27,11 @@ deno fmt
 Run server.
 
 ```bash
-deno run --allow-env --allow-net --allow-read main.ts 
+deno run --allow-env --allow-net --allow-read src/main.ts 
 ```
 
 Run server with denon.
 
 ```bash
-denon run --allow-env --allow-net --allow-read main.ts 
+denon run --allow-env --allow-net --allow-read src/main.ts 
 ```
