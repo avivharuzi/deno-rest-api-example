@@ -35,3 +35,17 @@ Run server with denon.
 ```bash
 denon run --allow-env --allow-net --allow-read src/main.ts 
 ```
+
+## Docker Commands
+
+Development build.
+
+```bash
+docker-compose up -d
+```
+
+Production build.
+
+```bash
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+```

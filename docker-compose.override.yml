@@ -1,0 +1,6 @@
+version: "3.7"
+
+services:
+  deno-rest-api-example:
+    volumes:
+      - ./:/usr/src/app

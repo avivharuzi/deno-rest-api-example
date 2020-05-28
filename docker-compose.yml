@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  deno-rest-api-example:
+    container_name: deno-rest-api-example
+    restart: always
+    init: true
+    build: ./
+    ports:
+      - ${SERVER_PORT:-8080}:${SERVER_PORT:-8080}
+    env_file:
+      - ./.env
